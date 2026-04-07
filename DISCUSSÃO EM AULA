@@ -1,0 +1,12 @@
+5. O Diagnóstico: Clique na execução que falhou. Vá até o passo “Rodar
+Testes” e expanda o terminal. Responda (anote para discussão na aula):
+
+• Qual foi a mensagem exata de erro que o Pytest imprimiu?
+
+Error: Process completed with exit code 1.
+A mensagem exata de erro impressa pelo Pytest foi: AssertionError: assert {'resultado': 2} == {'resultado': 8}.
+
+
+• O que ele esperava receber e o que ele recebeu de fato?
+
+O teste esperava receber {"resultado": 8}, mas recebeu {"resultado": 2}. Isso aconteceu porque a função estava retornando um valor diferente do esperado no teste, já que houve a alteração de sinais de expressão matemática.
